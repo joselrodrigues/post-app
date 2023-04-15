@@ -2,6 +2,7 @@
   "name": "post-app",
   "version": "0.1.0",
   "private": true,
+  "package-name": "git+https://joselrodrigues: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@github.com/joselrodrigues/comment-ui.git",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
