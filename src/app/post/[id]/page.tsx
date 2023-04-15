@@ -1,10 +1,10 @@
 'use client'
 
-import React, { useState } from 'react'
-import { useRouter } from 'next/navigation'
-import useSWR from 'swr'
-import { Post } from '@joselrodrigues/comment-ui'
 import { fetcher } from '@/app/utils'
+import { Post } from '@joselrodrigues/comment-ui'
+import { useRouter } from 'next/navigation'
+import React, { useState } from 'react'
+import useSWR from 'swr'
 
 /**
  * The expected shape of the props for the PostComponent.

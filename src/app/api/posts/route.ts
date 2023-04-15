@@ -15,6 +15,11 @@ interface Post {
 export interface PostWithUser extends Post {
   user: User
 }
+/**
+ * Fetches the posts and users data, and combines them into an array of PostWithUser objects.
+ * @param {Request} request - The request object.
+ * @returns {Promise<NextResponse>} A NextResponse containing the combined posts and users data as PostWithUser objects.
+ */
 export async function GET(request: Request) {
   const postsResponse = await fetch(`${process.env.API}/posts`)
   const posts: Post[] = await postsResponse.json()

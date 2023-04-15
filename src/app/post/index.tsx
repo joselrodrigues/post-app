@@ -1,8 +1,8 @@
 'use client'
 
+import { PostWithUser } from '@/app/api/posts/route'
 import { Card } from '@joselrodrigues/comment-ui'
 import { useRouter } from 'next/navigation'
-import { PostWithUser } from '@/app/api/posts/route'
 
 interface PostComponentProps {
   data: PostWithUser[]
