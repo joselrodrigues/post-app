@@ -1,6 +1,6 @@
 import Post from '@/app/post/index'
 
-export async function getData() {
+async function getData() {
   let resp = await fetch(`${process.env.HOST}/api/posts`, { cache: 'no-store' })
 
   return resp.json()
