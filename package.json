@@ -2,7 +2,6 @@
   "name": "post-app",
   "version": "0.1.0",
   "private": true,
-  "package-name": "git+https://joselrodrigues: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@github.com/joselrodrigues/comment-ui.git",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@joselrodrigues/comment-ui": "^2.1.2",
+    "@joselrodrigues/comment-ui": "^2.1.3",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
